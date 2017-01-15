@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9FE25751E2B80E200CF2331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE25741E2B80E200CF2331 /* AppDelegate.swift */; };
+		E9FE25771E2B80E200CF2331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE25761E2B80E200CF2331 /* ViewController.swift */; };
+		E9FE25791E2B80E200CF2331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FE25781E2B80E200CF2331 /* Assets.xcassets */; };
+		E9FE257C1E2B80E200CF2331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE257A1E2B80E200CF2331 /* Main.storyboard */; };
+		E9FE25871E2B80E200CF2331 /* iruca_osxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE25861E2B80E200CF2331 /* iruca_osxTests.swift */; };
+		E9FE25921E2B80E200CF2331 /* iruca_osxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE25911E2B80E200CF2331 /* iruca_osxUITests.swift */; };
+		E9FE25A01E2B9B4400CF2331 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE259F1E2B9B4400CF2331 /* WindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9FE25831E2B80E200CF2331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FE25691E2B80E200CF2331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FE25701E2B80E200CF2331;
+			remoteInfo = "iruca-osx";
+		};
+		E9FE258E1E2B80E200CF2331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FE25691E2B80E200CF2331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FE25701E2B80E200CF2331;
+			remoteInfo = "iruca-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9FE25711E2B80E200CF2331 /* iruca-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iruca-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE25741E2B80E200CF2331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9FE25761E2B80E200CF2331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9FE25781E2B80E200CF2331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9FE257B1E2B80E200CF2331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9FE257D1E2B80E200CF2331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FE25821E2B80E200CF2331 /* iruca-osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iruca-osxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE25861E2B80E200CF2331 /* iruca_osxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iruca_osxTests.swift; sourceTree = "<group>"; };
+		E9FE25881E2B80E200CF2331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FE258D1E2B80E200CF2331 /* iruca-osxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iruca-osxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE25911E2B80E200CF2331 /* iruca_osxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iruca_osxUITests.swift; sourceTree = "<group>"; };
+		E9FE25931E2B80E200CF2331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FE259F1E2B9B4400CF2331 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9FE256E1E2B80E200CF2331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE257F1E2B80E200CF2331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE258A1E2B80E200CF2331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9FE25681E2B80E200CF2331 = {
+			isa = PBXGroup;
+			children = (
+				E9FE25731E2B80E200CF2331 /* iruca-osx */,
+				E9FE25851E2B80E200CF2331 /* iruca-osxTests */,
+				E9FE25901E2B80E200CF2331 /* iruca-osxUITests */,
+				E9FE25721E2B80E200CF2331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FE25721E2B80E200CF2331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE25711E2B80E200CF2331 /* iruca-osx.app */,
+				E9FE25821E2B80E200CF2331 /* iruca-osxTests.xctest */,
+				E9FE258D1E2B80E200CF2331 /* iruca-osxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FE25731E2B80E200CF2331 /* iruca-osx */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE25741E2B80E200CF2331 /* AppDelegate.swift */,
+				E9FE25761E2B80E200CF2331 /* ViewController.swift */,
+				E9FE25781E2B80E200CF2331 /* Assets.xcassets */,
+				E9FE257A1E2B80E200CF2331 /* Main.storyboard */,
+				E9FE257D1E2B80E200CF2331 /* Info.plist */,
+				E9FE259F1E2B9B4400CF2331 /* WindowController.swift */,
+			);
+			path = "iruca-osx";
+			sourceTree = "<group>";
+		};
+		E9FE25851E2B80E200CF2331 /* iruca-osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE25861E2B80E200CF2331 /* iruca_osxTests.swift */,
+				E9FE25881E2B80E200CF2331 /* Info.plist */,
+			);
+			path = "iruca-osxTests";
+			sourceTree = "<group>";
+		};
+		E9FE25901E2B80E200CF2331 /* iruca-osxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE25911E2B80E200CF2331 /* iruca_osxUITests.swift */,
+				E9FE25931E2B80E200CF2331 /* Info.plist */,
+			);
+			path = "iruca-osxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9FE25701E2B80E200CF2331 /* iruca-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE25961E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osx" */;
+			buildPhases = (
+				E9FE256D1E2B80E200CF2331 /* Sources */,
+				E9FE256E1E2B80E200CF2331 /* Frameworks */,
+				E9FE256F1E2B80E200CF2331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iruca-osx";
+			productName = "iruca-osx";
+			productReference = E9FE25711E2B80E200CF2331 /* iruca-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9FE25811E2B80E200CF2331 /* iruca-osxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE25991E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osxTests" */;
+			buildPhases = (
+				E9FE257E1E2B80E200CF2331 /* Sources */,
+				E9FE257F1E2B80E200CF2331 /* Frameworks */,
+				E9FE25801E2B80E200CF2331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FE25841E2B80E200CF2331 /* PBXTargetDependency */,
+			);
+			name = "iruca-osxTests";
+			productName = "iruca-osxTests";
+			productReference = E9FE25821E2B80E200CF2331 /* iruca-osxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9FE258C1E2B80E200CF2331 /* iruca-osxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE259C1E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osxUITests" */;
+			buildPhases = (
+				E9FE25891E2B80E200CF2331 /* Sources */,
+				E9FE258A1E2B80E200CF2331 /* Frameworks */,
+				E9FE258B1E2B80E200CF2331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FE258F1E2B80E200CF2331 /* PBXTargetDependency */,
+			);
+			name = "iruca-osxUITests";
+			productName = "iruca-osxUITests";
+			productReference = E9FE258D1E2B80E200CF2331 /* iruca-osxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9FE25691E2B80E200CF2331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					E9FE25701E2B80E200CF2331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D9UZ289C7L;
+						ProvisioningStyle = Automatic;
+					};
+					E9FE25811E2B80E200CF2331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D9UZ289C7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9FE25701E2B80E200CF2331;
+					};
+					E9FE258C1E2B80E200CF2331 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D9UZ289C7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9FE25701E2B80E200CF2331;
+					};
+				};
+			};
+			buildConfigurationList = E9FE256C1E2B80E200CF2331 /* Build configuration list for PBXProject "iruca-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9FE25681E2B80E200CF2331;
+			productRefGroup = E9FE25721E2B80E200CF2331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9FE25701E2B80E200CF2331 /* iruca-osx */,
+				E9FE25811E2B80E200CF2331 /* iruca-osxTests */,
+				E9FE258C1E2B80E200CF2331 /* iruca-osxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9FE256F1E2B80E200CF2331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE25791E2B80E200CF2331 /* Assets.xcassets in Resources */,
+				E9FE257C1E2B80E200CF2331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE25801E2B80E200CF2331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE258B1E2B80E200CF2331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9FE256D1E2B80E200CF2331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE25A01E2B9B4400CF2331 /* WindowController.swift in Sources */,
+				E9FE25771E2B80E200CF2331 /* ViewController.swift in Sources */,
+				E9FE25751E2B80E200CF2331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE257E1E2B80E200CF2331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE25871E2B80E200CF2331 /* iruca_osxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE25891E2B80E200CF2331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE25921E2B80E200CF2331 /* iruca_osxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FE25841E2B80E200CF2331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FE25701E2B80E200CF2331 /* iruca-osx */;
+			targetProxy = E9FE25831E2B80E200CF2331 /* PBXContainerItemProxy */;
+		};
+		E9FE258F1E2B80E200CF2331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FE25701E2B80E200CF2331 /* iruca-osx */;
+			targetProxy = E9FE258E1E2B80E200CF2331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9FE257A1E2B80E200CF2331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FE257B1E2B80E200CF2331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9FE25941E2B80E200CF2331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9FE25951E2B80E200CF2331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E9FE25971E2B80E200CF2331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9FE25981E2B80E200CF2331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osx/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E9FE259A1E2B80E200CF2331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iruca-osx.app/Contents/MacOS/iruca-osx";
+			};
+			name = Debug;
+		};
+		E9FE259B1E2B80E200CF2331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iruca-osx.app/Contents/MacOS/iruca-osx";
+			};
+			name = Release;
+		};
+		E9FE259D1E2B80E200CF2331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iruca-osx";
+			};
+			name = Debug;
+		};
+		E9FE259E1E2B80E200CF2331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D9UZ289C7L;
+				INFOPLIST_FILE = "iruca-osxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.tagbangers.iruca-osxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iruca-osx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9FE256C1E2B80E200CF2331 /* Build configuration list for PBXProject "iruca-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE25941E2B80E200CF2331 /* Debug */,
+				E9FE25951E2B80E200CF2331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FE25961E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE25971E2B80E200CF2331 /* Debug */,
+				E9FE25981E2B80E200CF2331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9FE25991E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE259A1E2B80E200CF2331 /* Debug */,
+				E9FE259B1E2B80E200CF2331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9FE259C1E2B80E200CF2331 /* Build configuration list for PBXNativeTarget "iruca-osxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE259D1E2B80E200CF2331 /* Debug */,
+				E9FE259E1E2B80E200CF2331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9FE25691E2B80E200CF2331 /* Project object */;
+}
