@@ -8,7 +8,6 @@ target 'iruca-osx' do
   # Pods for iruca-osx
   pod 'Alamofire', '~> 4.0'
   pod 'XCGLogger', '~> 4.0.0'
-  pod 'SVProgressHUD', '~> 2.1.2'
 
   target 'iruca-osxTests' do
     inherit! :search_paths
