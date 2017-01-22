@@ -19,6 +19,15 @@ class ViewController: NSViewController {
 		popUpButton.addItems(withTitles: array)
 	}
 
+	@IBAction func updateClick(_ sender: NSButtonCell) {
+		let id = idTextField.stringValue;
+		let name = nameTextField.stringValue;
+		
+		if (id.isEmpty || name.isEmpty) {
+			logger.error("未設定の項目があります")
+			return;
+		}
+	}
 	override var representedObject: Any? {
 		didSet {
 			// Update the view, if already loaded.

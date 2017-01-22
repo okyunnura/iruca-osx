@@ -757,6 +757,9 @@
                                 <buttonCell key="cell" type="roundRect" title="更新" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cgA-i8-6Ao">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" size="12" name=".HiraKakuInterface-W3"/>
+                                    <connections>
+                                        <action selector="updateClick:" target="XfG-lQ-9wD" id="Q9z-zM-giF"/>
+                                    </connections>
                                 </buttonCell>
                             </button>
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8rj-YW-zR8">
